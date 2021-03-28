@@ -76,7 +76,8 @@ p {
   font-family: forma-djr-text, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.4em;
 
   text-align: left;
   margin: 2em;
@@ -158,7 +159,7 @@ p {
   .infoGrid {
     display: grid;
     grid-template-columns: 1fr 30px 1fr;
-    grid-template-rows: 205px 205px 205px 205px;
+    grid-template-rows: auto auto auto auto;
     margin-bottom: 200px;
   }
 
@@ -171,6 +172,7 @@ p {
     align-self: stretch;
     justify-self: stretch;
     margin: 2em;
+    margin-bottom: 4em;
     object-fit:cover;
     width: 80%;
   }
@@ -182,8 +184,8 @@ p {
     margin: 200px 0;
   }
 
-  .solutionGrid.pesticides {
-    grid-template-rows: 900px;
+  .solutionGrid {
+    grid-template-rows: auto;
   }
 
   .solutionGrid p {
